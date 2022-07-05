@@ -1,0 +1,53 @@
+.mainLogin {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.inputUserName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputUserName label {
+  font-weight: bolder;
+}
+
+.inputPassword h3 {
+  margin-bottom: 5px;
+}
+
+.form input {
+  width: 200px;
+  height: 22px;
+  border: 2px solid black;
+}
+
+.buttonLogIn button {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  width: 90px;
+  cursor: pointer;
+}
+
+.buttonLogIn {
+  margin-top: 20px;
+}
+
+.textForLogin h3 {
+  margin-top: 5px;
+}
+
+.textForLogin h1 {
+  margin-bottom: 0px;
+}
+
+.footer {
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0px;
+}
