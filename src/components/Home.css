@@ -1,0 +1,40 @@
+#container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2em auto;
+}
+.cols {
+  -moz-column-count: 3;
+  -moz-column-gap: 3%;
+  -moz-column-width: 30%;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 3%;
+  -webkit-column-width: 30%;
+  column-count: 3;
+  column-gap: 3%;
+  column-width: 30%;
+}
+
+.image-wrapper {
+  position: relative;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.image-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  display: none;
+  cursor: pointer;
+}
+
+.image-wrapper:hover .image-link {
+  display: block;
+}

@@ -1,0 +1,89 @@
+.form-add {
+  width: 360px;
+  height: 260px;
+  background-color: white;
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 25%;
+}
+.form-wrapper {
+  margin-top: 25px;
+}
+
+.form-add h3 {
+  margin: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.input-album {
+  text-align: center;
+}
+
+.btnOpen {
+  display: flex;
+  justify-content: center;
+}
+.btnOpen h3 {
+  cursor: pointer;
+  font-size: inherit;
+}
+.btn-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.btn-btn button {
+  margin: 10px;
+}
+
+.btn-cancel button {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-save button {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  width: 70px;
+  cursor: pointer;
+}
+
+.add-existing {
+  text-align: center;
+}
+
+.add-existing ul {
+  list-style-type: none;
+  font-size: 12px;
+  padding: 0px;
+  margin-top: 0;
+}
+
+.add-existing ul li {
+  padding: 2px;
+  font-family: cursive;
+}
+
+.add-existing ul li:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.btn-cancel button:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-save button:hover {
+  background-color: white;
+  color: black;
+}

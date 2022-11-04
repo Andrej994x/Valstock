@@ -1,0 +1,44 @@
+.mainHeader {
+  height: 50px;
+  text-align: center;
+  background-color: black;
+  display: flex;
+}
+.header-item {
+  flex: 1;
+  justify-content: right;
+}
+.textForHeader {
+  color: white;
+  font-weight: bolder;
+  margin-top: 15px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.btnAlbums {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.dropDown {
+  margin-top: 15px;
+}
+.drop-item {
+  margin-top: 13px;
+}
+
+.dropDown select {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  width: 150px;
+  cursor: pointer;
+}
+.dropDown option {
+  cursor: pointer;
+}
